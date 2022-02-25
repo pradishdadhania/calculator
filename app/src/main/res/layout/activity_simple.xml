@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".simple"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@color/Pink_200"/>
+    <EditText
+        android:id="@+id/etnumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 1"
+        ></EditText>
+    <EditText
+        android:id="@+id/etnumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 2"
+        ></EditText>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/buttonsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="40dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="40dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/buttonmul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="40dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/buttonmul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="40dp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ans is"
+        android:textSize="40dp"/>
+
+
+</LinearLayout>
